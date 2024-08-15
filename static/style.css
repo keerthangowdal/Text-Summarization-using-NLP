@@ -1,0 +1,74 @@
+/* Common styles for body */
+body {
+    font-family: Arial, sans-serif; /* Set a nice font */
+}
+
+/* Styles for index.html */
+.index-body {
+    background: linear-gradient(to right, #acc3de, #dcb0ab); /* Light pastel pink gradient */
+}
+
+/* Styles for summary.html */
+.summary-body {
+    background: linear-gradient(to right, #9f9fcf, #e4b3c3); /* Light lavender gradient */
+}
+
+.jumbotron {
+    background-color: chocolate; /* Pale peach background */
+    color: #333; /* Dark text for better contrast */
+    padding: 50px 20px; /* Increased padding for more space */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    text-align: center; /* Center-align text */
+    margin-bottom: 30px; /* Space below jumbotron */
+}
+
+.original_title {
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_title {
+    background-color: rgb(183, 104, 169);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.str {
+    display: flex;
+    flex-direction: row;
+}
+
+.originalTxt {
+    background-color: azure;
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.summaryTxt {
+    background-color: rgb(124, 177, 177);
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.heading {
+    font-size: 2.5em; /* Larger heading */
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.2em; /* Slightly larger lead text */
+    margin-top: 10px; /* Space above lead text */
+}
+
+.submitBtn {
+    margin-top: 10px;
+}
